@@ -1,9 +1,12 @@
+/* centers the everything on the page */
 * {
   box-sizing: border-box;
   padding: 0;
   margin: 0;
 }
+/* -------------------------- */
 
+/* formatting for the header */
 header {
   padding: 20px;
   font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
@@ -37,20 +40,22 @@ header nav ul li {
   display: inline-block;
   margin-left: 25px;
 }
+/* --------------------------------------------- */
 
-body {
-  background-color: #d9dcd6;
-}
-
+/* link color */
 a {
   color: #ffffff;
   text-decoration: none;
 }
+/* ------------------------------------------------- */
 
-p {
-  font-size: 16px;
+/* background color */
+body {
+  background-color: #d9dcd6;
 }
+/* ----------------------- */
 
+/* formating for the first large picture */
 .hero {
   height: 800px;
   width: 100%;
@@ -59,23 +64,37 @@ p {
   background-size: cover;
   background-position: center;
 }
+/* -------------------------------------------------- */
 
+/* text font size and other formatting  */
+p {
+  font-size: 16px;
+}
+/* ---------------------------------------------------------- */
+
+/* floats "search-engine-optimizationoptimization" and ".social-media-marketing" to the left and applies margins */
 .float-left {
   float: left;
   margin-right: 25px;
 }
+/* -------------------------------------------------------------------- */
 
+/* floats the side bar to the right */
 .float-right {
   float: right;
   margin-left: 25px;
 }
+/* -------------------------------------- */
 
+/* formats the text for the 3 articles */
 .content {
   width: 75%;
   display: inline-block;
   margin-left: 20px;
 }
+/* --------------------------------------------- */
 
+/* general formating for the aside */
 .benefits {
   margin-right: 20px;
   padding: 20px;
@@ -108,7 +127,9 @@ p {
   margin: 10px auto;
   max-width: 150px;
 }
+------------------------------------------------
 
+/* formatting for the 3 articles boxes */
 .online-reputation-management,
 .social-media-marketing,
 .search-engine-optimization {
@@ -132,7 +153,9 @@ p {
   margin-bottom: 20px;
   font-size: 36px;
 }
+/* ----------------------------------------- */
 
+/* foorter formating */
 footer {
   padding: 30px;
   clear: both;
